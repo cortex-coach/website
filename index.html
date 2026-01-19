@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cortex Coach - AI-powered workout conversion. Transform any workout plan into Garmin FIT files instantly. The neural interface for elite training.">
+    <meta name="keywords" content="workout converter, FIT file, Garmin, AI fitness, training plan, intervals.icu, running, cycling, triathlon">
+    <meta property="og:title" content="Cortex Coach - Neural Workout Intelligence">
+    <meta property="og:description" content="Transform any workout plan into device-ready FIT files with AI. Works with Garmin, Coros, Suunto, and more.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%239f7aea' width='100' height='100' rx='10'/><text y='.9em' x='50%' text-anchor='middle' font-size='70' fill='black' font-family='sans-serif' font-weight='bold'>CC</text></svg>">
+    <title>CORTEX COACH — Neural Workout Intelligence</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}:root{--cyber-purple:#9f7aea;--cyber-cyan:#22d3ee;--cyber-pink:#ec4899;--cyber-yellow:#fbbf24;--cyber-green:#22c55e;--cyber-red:#ef4444;--bg-dark:#0a0014;--bg-card:rgba(0,0,0,0.8)}html{scroll-behavior:smooth}body{font-family:'Orbitron',sans-serif;background:var(--bg-dark);color:var(--cyber-cyan);overflow-x:hidden;line-height:1.6}.mono{font-family:'Share Tech Mono',monospace}.container{max-width:1200px;margin:0 auto;padding:0 1.5rem}.retro-text{text-shadow:2px 2px 0 var(--cyber-pink),4px 4px 0 var(--cyber-cyan),6px 6px 12px rgba(255,0,255,.4)}.glitch{position:relative;animation:glitch-skew 4s infinite linear alternate-reverse}.glitch::before,.glitch::after{content:attr(data-text);position:absolute;top:0;left:0;width:100%;height:100%;opacity:.8}.glitch::before{color:var(--cyber-pink);animation:glitch-1 .3s infinite linear alternate-reverse;clip-path:polygon(0 0,100% 0,100% 35%,0 35%);transform:translateX(-2px)}.glitch::after{color:var(--cyber-cyan);animation:glitch-2 .3s infinite linear alternate-reverse;clip-path:polygon(0 65%,100% 65%,100% 100%,0 100%);transform:translateX(2px)}@keyframes glitch-1{0%,100%{transform:translateX(-2px)}50%{transform:translateX(2px)}}@keyframes glitch-2{0%,100%{transform:translateX(2px)}50%{transform:translateX(-2px)}}@keyframes glitch-skew{0%,100%{transform:skew(0)}20%{transform:skew(-.5deg)}40%{transform:skew(.5deg)}60%{transform:skew(-.3deg)}80%{transform:skew(.3deg)}}.scanlines{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:1000;background:repeating-linear-gradient(0deg,rgba(0,0,0,.1) 0,rgba(0,0,0,.1) 1px,transparent 1px,transparent 3px);opacity:.3}.cyber-grid{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:-1;background-image:linear-gradient(rgba(34,211,238,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.03) 1px,transparent 1px);background-size:60px 60px;animation:grid-move 20s linear infinite}@keyframes grid-move{0%{transform:translate(0,0)}100%{transform:translate(60px,60px)}}#particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:1}.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,0,20,.95);backdrop-filter:blur(10px);border-bottom:2px solid var(--cyber-purple);padding:1rem 0}.nav-inner{display:flex;justify-content:space-between;align-items:center}.logo{display:flex;align-items:center;gap:1rem}.logo-icon{width:48px;height:48px;background:linear-gradient(135deg,var(--cyber-purple),var(--cyber-pink));display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.25rem;color:#000;clip-path:polygon(10% 0,100% 0,100% 90%,90% 100%,0 100%,0 10%)}.logo-text{font-size:1.25rem;font-weight:800;letter-spacing:2px;color:var(--cyber-cyan)}.nav-links{display:flex;align-items:center;gap:2rem}.nav-link{color:var(--cyber-cyan);text-decoration:none;font-size:.85rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;transition:all .3s;position:relative}.nav-link:hover{color:var(--cyber-yellow)}.nav-link::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--cyber-yellow);transition:width .3s}.nav-link:hover::after{width:100%}.mobile-menu-btn{display:none;background:0 0;border:2px solid var(--cyber-cyan);color:var(--cyber-cyan);padding:.5rem .75rem;cursor:pointer;font-family:inherit;font-size:1.25rem}.mobile-menu{display:none;position:fixed;top:80px;left:0;right:0;background:rgba(10,0,20,.98);border-bottom:2px solid var(--cyber-purple);padding:1rem;z-index:99}.mobile-menu.active{display:block}.mobile-menu a{display:block;color:var(--cyber-cyan);text-decoration:none;padding:1rem;text-align:center;border-bottom:1px solid rgba(159,122,234,.2);font-weight:600;letter-spacing:1px}.mobile-menu a:hover{color:var(--cyber-yellow);background:rgba(159,122,234,.1)}@media(max-width:768px){.nav-links{display:none}.mobile-menu-btn{display:block}}.btn{display:inline-flex;align-items:center;justify-content:center;padding:1rem 2rem;font-family:'Orbitron',sans-serif;font-weight:700;font-size:.9rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:all .3s;position:relative;overflow:hidden;border:none}.btn-primary{background:linear-gradient(135deg,var(--cyber-pink),var(--cyber-cyan));color:#000}.btn-primary::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);transition:left .5s}.btn-primary:hover::before{left:100%}.btn-primary:hover{transform:translateY(-3px);box-shadow:0 10px 40px rgba(236,72,153,.4)}.btn-outline{background:0 0;color:var(--cyber-cyan);border:2px solid var(--cyber-cyan)}.btn-outline:hover{background:var(--cyber-cyan);color:#000;box-shadow:0 0 30px rgba(34,211,238,.5)}.hero{min-height:100vh;display:flex;align-items:center;padding:8rem 0 4rem;position:relative;z-index:10}.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}@media(max-width:968px){.hero-grid{grid-template-columns:1fr;text-align:center}}.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(159,122,234,.2);border:1px solid var(--cyber-purple);padding:.5rem 1rem;margin-bottom:2rem;font-size:.75rem;letter-spacing:1px}.badge-dot{width:8px;height:8px;background:var(--cyber-green);border-radius:50%;animation:pulse 2s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}.hero-title{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:900;line-height:1.1;margin-bottom:1.5rem}.hero-title .line-1{background:linear-gradient(90deg,var(--cyber-purple),var(--cyber-pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.hero-title .line-2{color:var(--cyber-yellow)}.hero-title .line-3{color:var(--cyber-cyan)}.hero-subtitle{color:var(--cyber-green);font-size:1rem;line-height:1.8;margin-bottom:2rem;max-width:500px}.hero-ctas{display:flex;gap:1rem;margin-bottom:2rem;flex-wrap:wrap}@media(max-width:968px){.hero-ctas{justify-content:center}.hero-subtitle{margin:0 auto 2rem}}.hero-stats{display:flex;gap:2rem}@media(max-width:968px){.hero-stats{justify-content:center}}.stat{text-align:left}.stat-value{font-size:1.5rem;font-weight:800;color:var(--cyber-yellow)}.stat-label{font-size:.7rem;color:var(--cyber-purple);letter-spacing:1px}.terminal{background:rgba(0,0,0,.9);border:3px solid var(--cyber-purple);position:relative}.terminal::before{content:'';position:absolute;inset:-6px;border:1px solid var(--cyber-cyan);opacity:.3;pointer-events:none}.terminal-header{display:flex;align-items:center;gap:1rem;padding:1rem;border-bottom:1px solid var(--cyber-purple);background:rgba(159,122,234,.1)}.terminal-dots{display:flex;gap:.5rem}.terminal-dot{width:12px;height:12px}.terminal-dot.red{background:var(--cyber-red)}.terminal-dot.yellow{background:var(--cyber-yellow)}.terminal-dot.green{background:var(--cyber-green)}.terminal-title{font-size:.7rem;color:var(--cyber-cyan);letter-spacing:1px}.terminal-body{padding:1.5rem}.terminal-line{margin-bottom:.75rem;font-size:.85rem}.terminal-prompt{color:var(--cyber-green)}.terminal-input{width:100%;background:rgba(0,0,0,.5);border:1px solid var(--cyber-green);color:var(--cyber-green);padding:1rem;font-family:'Share Tech Mono',monospace;font-size:.85rem;resize:none;margin:1rem 0}.terminal-input:focus{outline:0;border-color:var(--cyber-yellow);box-shadow:0 0 20px rgba(251,191,36,.2)}.terminal-output{background:rgba(34,197,94,.1);border:1px solid var(--cyber-green);padding:1rem;margin-top:1rem}.terminal-output .status{display:flex;align-items:center;gap:.5rem;color:var(--cyber-green);margin-bottom:.5rem}.terminal-output .status .dot{width:8px;height:8px;background:var(--cyber-green);border-radius:50%;animation:pulse 1s infinite}.section-header{text-align:center;margin-bottom:4rem}.section-tag{display:inline-block;color:var(--cyber-pink);font-size:.8rem;letter-spacing:3px;margin-bottom:1rem}.section-title{font-size:clamp(2rem,4vw,3rem);font-weight:800;margin-bottom:1rem}.section-subtitle{color:var(--cyber-purple);font-size:1rem;max-width:600px;margin:0 auto}.problem{padding:6rem 0;position:relative;z-index:10}.problem-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}.problem-card{background:var(--bg-card);border:2px solid var(--cyber-purple);padding:2rem;transition:all .3s}.problem-card:hover{border-color:var(--cyber-pink);transform:translateY(-5px)}.problem-icon{font-size:2.5rem;margin-bottom:1rem}.problem-stat{font-size:2rem;font-weight:800;color:var(--cyber-pink);margin-bottom:.5rem}.problem-text{color:var(--cyber-cyan);font-size:.9rem}.features{padding:6rem 0;position:relative;z-index:10}.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:2rem}.feature-card{background:var(--bg-card);border:2px solid var(--cyber-purple);padding:2rem;position:relative;overflow:hidden;transition:all .3s}.feature-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:0;background:linear-gradient(180deg,var(--cyber-pink),var(--cyber-cyan));transition:height .3s}.feature-card:hover{border-color:var(--cyber-yellow);transform:translateY(-5px)}.feature-card:hover::before{height:100%}.feature-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}.feature-icon{width:48px;height:48px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;background:rgba(159,122,234,.2)}.feature-title{font-size:1rem;font-weight:700;color:var(--cyber-yellow);letter-spacing:1px}.feature-text{color:var(--cyber-cyan);font-size:.85rem;line-height:1.7}.how-it-works{padding:6rem 0;position:relative;z-index:10}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;position:relative}@media(max-width:768px){.steps{grid-template-columns:1fr}}.steps::before{content:'';position:absolute;top:4rem;left:10%;right:10%;height:2px;background:linear-gradient(90deg,var(--cyber-purple),var(--cyber-cyan),var(--cyber-yellow))}@media(max-width:768px){.steps::before{display:none}}.step{text-align:center;position:relative}.step-icon-wrapper{position:relative;display:inline-block;margin-bottom:1.5rem}.step-icon{width:100px;height:100px;background:var(--bg-card);border:3px solid var(--cyber-purple);display:flex;align-items:center;justify-content:center;font-size:2.5rem;transform:rotate(45deg);transition:all .3s}.step-icon span{transform:rotate(-45deg)}.step:hover .step-icon{border-color:var(--cyber-yellow);box-shadow:0 0 30px rgba(251,191,36,.3)}.step-number{position:absolute;top:-10px;right:-10px;background:var(--cyber-yellow);color:#000;font-size:.8rem;font-weight:800;padding:.25rem .5rem}.step-title{font-size:1.1rem;font-weight:700;color:var(--cyber-yellow);margin-bottom:.5rem}.step-text{color:var(--cyber-cyan);font-size:.85rem}.pricing{padding:6rem 0;position:relative;z-index:10}.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;max-width:900px;margin:0 auto}.price-card{background:var(--bg-card);border:3px solid var(--cyber-purple);padding:2.5rem;position:relative;transition:all .3s}.price-card.featured{border-color:var(--cyber-yellow);transform:scale(1.05)}.price-card:hover{transform:translateY(-10px)}.price-card.featured:hover{transform:scale(1.05) translateY(-10px)}.price-badge{position:absolute;top:-1px;left:1.5rem;background:var(--cyber-cyan);color:#000;font-size:.7rem;font-weight:700;padding:.5rem 1rem;letter-spacing:1px}.price-badge.featured{background:var(--cyber-yellow);animation:pulse 2s infinite}.price-amount{margin-top:1rem}.price-value{font-size:3rem;font-weight:900;color:var(--cyber-cyan)}.price-card.featured .price-value{color:var(--cyber-yellow)}.price-period{color:var(--cyber-purple);font-size:.9rem}.price-description{color:var(--cyber-cyan);font-size:.85rem;margin:1rem 0 1.5rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(159,122,234,.3)}.price-features{list-style:none;margin-bottom:2rem}.price-features li{display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem;font-size:.85rem}.price-features li.included{color:var(--cyber-green)}.price-features li.excluded{color:rgba(156,163,175,.5)}.price-features .check{color:var(--cyber-green)}.price-features .x{color:rgba(156,163,175,.3)}.price-card .btn{width:100%}.faq{padding:6rem 0;position:relative;z-index:10}.faq-grid{max-width:800px;margin:0 auto}.faq-item{border:2px solid var(--cyber-purple);margin-bottom:1rem;background:var(--bg-card)}.faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 1.5rem;background:0 0;border:none;color:var(--cyber-cyan);font-family:'Orbitron',sans-serif;font-size:.95rem;font-weight:600;text-align:left;cursor:pointer;transition:all .3s}.faq-question:hover{color:var(--cyber-yellow);background:rgba(159,122,234,.1)}.faq-icon{font-size:1.5rem;color:var(--cyber-pink);transition:transform .3s}.faq-item.active .faq-icon{transform:rotate(45deg)}.faq-answer{max-height:0;overflow:hidden;transition:max-height .3s ease}.faq-answer p{padding:0 1.5rem 1.5rem;color:var(--cyber-cyan);font-size:.9rem;line-height:1.7}.faq-item.active .faq-answer{max-height:300px}.signup{padding:4rem 0;position:relative;z-index:10}.signup-box{background:linear-gradient(135deg,rgba(159,122,234,.15),rgba(34,211,238,.1));border:2px solid var(--cyber-purple);padding:3rem 2rem;text-align:center;max-width:700px;margin:0 auto}.signup-title{font-size:1.5rem;font-weight:800;color:var(--cyber-yellow);margin-bottom:.5rem}.signup-text{color:var(--cyber-cyan);margin-bottom:1.5rem;font-size:.95rem}.signup-form{display:flex;gap:1rem;max-width:500px;margin:0 auto;flex-wrap:wrap;justify-content:center}.signup-input{flex:1;min-width:250px;padding:1rem 1.5rem;background:rgba(0,0,0,.5);border:2px solid var(--cyber-cyan);color:var(--cyber-cyan);font-family:'Share Tech Mono',monospace;font-size:1rem}.signup-input:focus{outline:0;border-color:var(--cyber-yellow);box-shadow:0 0 20px rgba(251,191,36,.3)}.signup-input::placeholder{color:rgba(34,211,238,.5)}.signup-note{margin-top:1rem;font-size:.75rem;color:var(--cyber-purple)}.signup-success{display:none;color:var(--cyber-green);font-size:1rem;padding:1rem;border:1px solid var(--cyber-green);background:rgba(34,197,94,.1)}.cta{padding:6rem 0;position:relative;z-index:10;text-align:center}.cta-box{background:linear-gradient(135deg,rgba(159,122,234,.2),rgba(34,211,238,.1));border:2px solid var(--cyber-purple);padding:4rem 2rem;max-width:800px;margin:0 auto;position:relative}.cta-box::before,.cta-box::after{content:'';position:absolute;width:30px;height:30px;border:2px solid var(--cyber-cyan)}.cta-box::before{top:-10px;left:-10px;border-right:none;border-bottom:none}.cta-box::after{bottom:-10px;right:-10px;border-left:none;border-top:none}.cta-title{font-size:clamp(1.5rem,3vw,2.5rem);font-weight:800;margin-bottom:1rem}.cta-text{color:var(--cyber-cyan);margin-bottom:2rem;font-size:1rem}.cta-features{display:flex;justify-content:center;gap:2rem;margin-top:2rem;flex-wrap:wrap}.cta-feature{display:flex;align-items:center;gap:.5rem;color:var(--cyber-green);font-size:.85rem}.devices{padding:4rem 0;position:relative;z-index:10;text-align:center}.devices-title{font-size:.9rem;color:var(--cyber-purple);letter-spacing:2px;margin-bottom:2rem}.devices-grid{display:flex;justify-content:center;gap:3rem;flex-wrap:wrap;opacity:.7}.device{font-size:1.2rem;font-weight:700;color:var(--cyber-cyan);letter-spacing:2px}.footer{border-top:2px solid var(--cyber-purple);padding:4rem 0 2rem;position:relative;z-index:10}.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:3rem;margin-bottom:3rem}.footer-col h4{color:var(--cyber-yellow);font-size:.9rem;font-weight:700;letter-spacing:1px;margin-bottom:1.5rem}.footer-col ul{list-style:none}.footer-col li{margin-bottom:.75rem}.footer-col a{color:var(--cyber-cyan);text-decoration:none;font-size:.85rem;transition:color .3s}.footer-col a:hover{color:var(--cyber-yellow)}.footer-social{display:flex;gap:1rem}.social-link{width:40px;height:40px;border:1px solid var(--cyber-cyan);display:flex;align-items:center;justify-content:center;color:var(--cyber-cyan);text-decoration:none;font-size:.8rem;font-weight:700;transition:all .3s}.social-link:hover{background:var(--cyber-cyan);color:#000}.footer-bottom{border-top:1px solid rgba(159,122,234,.3);padding-top:2rem;text-align:center}.footer-bottom p{color:var(--cyber-purple);font-size:.8rem}.footer-status{color:var(--cyber-cyan);font-size:.75rem;margin-top:.5rem}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}.float{animation:float 3s ease-in-out infinite}@media(max-width:768px){.hero{padding:6rem 0 3rem}.terminal{margin-top:2rem}.price-card.featured{transform:none}.price-card.featured:hover{transform:translateY(-10px)}.signup-form{flex-direction:column}.signup-input{width:100%}}
+    </style>
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="cyber-grid"></div>
+    <canvas id="particles"></canvas>
+    
+    <nav class="nav">
+        <div class="container nav-inner">
+            <div class="logo">
+                <div class="logo-icon">CC</div>
+                <span class="logo-text glitch" data-text="CORTEX">CORTEX</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">System</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#cta" class="btn btn-primary">Jack In →</a>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </nav>
+    
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#features" onclick="toggleMobileMenu()">Features</a>
+        <a href="#how-it-works" onclick="toggleMobileMenu()">System</a>
+        <a href="#pricing" onclick="toggleMobileMenu()">Pricing</a>
+        <a href="#faq" onclick="toggleMobileMenu()">FAQ</a>
+        <a href="#cta" onclick="toggleMobileMenu()">Start Trial</a>
+    </div>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge mono">
+                        <span>▶ NEURAL_NET_ACTIVE</span>
+                        <span class="badge-dot"></span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="line-1 retro-text">NEURAL</span><br>
+                        <span class="line-2">WORKOUT</span><br>
+                        <span class="line-3">SYNTHESIS</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle mono">
+                        &gt; Transform any workout plan into device-ready FIT files<br>
+                        &gt; AI-powered conversion in under 2 seconds<br>
+                        &gt; Sync to Garmin, Coros, Suunto & more_
+                    </p>
+                    
+                    <div class="hero-ctas">
+                        <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+                        <a href="#how-it-works" class="btn btn-outline">View Demo</a>
+                    </div>
+                    
+                    <div class="hero-stats mono">
+                        <div class="stat">
+                            <div class="stat-value">14</div>
+                            <div class="stat-label">DAY FREE TRIAL</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">&lt;2s</div>
+                            <div class="stat-label">CONVERSION TIME</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">$3</div>
+                            <div class="stat-label">PER MONTH</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-demo">
+                    <div class="terminal float">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <div class="terminal-dot red"></div>
+                                <div class="terminal-dot yellow"></div>
+                                <div class="terminal-dot green"></div>
+                            </div>
+                            <span class="terminal-title mono">CORTEX_TERMINAL_v4.1</span>
+                        </div>
+                        <div class="terminal-body mono">
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">&gt; INPUT_WORKOUT_PROTOCOL:</span>
+                            </div>
+                            <textarea class="terminal-input" id="workoutInput" rows="3" placeholder="5x400m @ threshold | recovery:90s | warmup:15min"></textarea>
+                            
+                            <button class="btn btn-primary" style="width:100%" onclick="simulateConversion()">⚡ COMPILE WORKOUT ⚡</button>
+                            
+                            <div class="terminal-output" id="terminalOutput">
+                                <div class="status">
+                                    <span class="dot"></span>
+                                    <span>SUCCESS: FIT_FILE_GENERATED</span>
+                                </div>
+                                <div style="font-size:.75rem;color:var(--cyber-cyan)">
+                                    &gt; Zones calibrated<br>
+                                    &gt; 5 intervals structured<br>
+                                    &gt; Ready for device upload_
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag mono">// THE PROBLEM</span>
+                <h2 class="section-title retro-text">WORKFLOW BREAKDOWN</h2>
+                <p class="section-subtitle mono">Current platforms fail athletes and coaches</p>
+            </div>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">⚠️</div>
+                    <div class="problem-stat">40%</div>
+                    <p class="problem-text mono">Structured workouts fail to sync from TrainingPeaks to GPS watches. Intervals lost. Targets missing.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">⏱️</div>
+                    <div class="problem-stat">2-5 hrs</div>
+                    <p class="problem-text mono">Weekly time coaches spend manually creating and distributing workout files to athletes.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📉</div>
+                    <div class="problem-stat">70%</div>
+                    <p class="problem-text mono">Coaches still use text-based workout descriptions due to technology friction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag mono">// SYSTEM MODULES</span>
+                <h2 class="section-title retro-text">NEURAL CAPABILITIES</h2>
+                <p class="section-subtitle mono">Advanced AI for optimal training synthesis</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-title">NEURAL CONVERTER</h3>
+                    </div>
+                    <p class="feature-text mono">Transform natural language workout descriptions into structured FIT protocols. Understands running, cycling, and triathlon terminology. Processing speed: &lt;2 seconds.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-icon">📡</div>
+                        <h3 class="feature-title">UNIVERSAL SYNC</h3>
+                    </div>
+                    <p class="feature-text mono">Compatible with all major fitness hardware: Garmin, Coros, Suunto, Polar, Wahoo. Direct integration with intervals.icu.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-icon">🎯</div>
+                        <h3 class="feature-title">ZONE INTELLIGENCE</h3>
+                    </div>
+                    <p class="feature-text mono">Automatically calibrates power, pace, and heart rate zones. Understands tempo, threshold, VO2max, and custom zones.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-icon">🔄</div>
+                        <h3 class="feature-title">INTERVALS.ICU NATIVE</h3>
+                    </div>
+                    <p class="feature-text mono">First-class integration via OAuth. Sync workouts directly to your calendar. Import coach plans seamlessly.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-icon">📋</div>
+                        <h3 class="feature-title">MULTI-FORMAT INPUT</h3>
+                    </div>
+                    <p class="feature-text mono">Paste text from emails, screenshots, PDFs, or training plans. Our AI extracts workout data from any format.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-icon">👥</div>
+                        <h3 class="feature-title">COACH MATRIX</h3>
+                    </div>
+                    <p class="feature-text mono">Manage multiple athletes. Batch convert training weeks. Save 3-5 hours weekly on workout distribution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag mono">// EXECUTION PROTOCOL</span>
+                <h2 class="section-title retro-text">THREE-PHASE SYNTHESIS</h2>
+                <p class="section-subtitle mono">From text to training in seconds</p>
+            </div>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon-wrapper">
+                        <div class="step-icon"><span>📝</span></div>
+                        <div class="step-number">01</div>
+                    </div>
+                    <h3 class="step-title">INPUT</h3>
+                    <p class="step-text mono">Paste any workout format. Our AI understands coach terminology.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon-wrapper">
+                        <div class="step-icon"><span>⚡</span></div>
+                        <div class="step-number">02</div>
+                    </div>
+                    <h3 class="step-title">PROCESS</h3>
+                    <p class="step-text mono">Neural network analyzes structure, generates FIT file in under 2 seconds.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon-wrapper">
+                        <div class="step-icon"><span>📱</span></div>
+                        <div class="step-number">03</div>
+                    </div>
+                    <h3 class="step-title">SYNC</h3>
+                    <p class="step-text mono">Download FIT file or sync directly via intervals.icu. Begin training.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag mono">// ACCESS TIERS</span>
+                <h2 class="section-title retro-text">NEURAL ACCESS</h2>
+                <p class="section-subtitle mono">Select your interface level</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <div class="price-badge">ATHLETE</div>
+                    <div class="price-amount">
+                        <span class="price-value">$3</span>
+                        <span class="price-period mono">/month</span>
+                    </div>
+                    <p class="price-description mono">For individual athletes who want seamless workout conversion.</p>
+                    <ul class="price-features mono">
+                        <li class="included"><span class="check">✓</span> Unlimited conversions</li>
+                        <li class="included"><span class="check">✓</span> All device formats</li>
+                        <li class="included"><span class="check">✓</span> intervals.icu integration</li>
+                        <li class="included"><span class="check">✓</span> Zone auto-calibration</li>
+                        <li class="excluded"><span class="x">✗</span> Multi-athlete mgmt</li>
+                        <li class="excluded"><span class="x">✗</span> Coach dashboard</li>
+                    </ul>
+                    <a href="#cta" class="btn btn-outline">Start Free Trial</a>
+                </div>
+                
+                <div class="price-card featured">
+                    <div class="price-badge featured">FOUNDING MEMBER</div>
+                    <div class="price-amount">
+                        <span class="price-value">$2</span>
+                        <span class="price-period mono">/month forever</span>
+                    </div>
+                    <p class="price-description mono">Lock in this price for life. Limited to first 200 members.</p>
+                    <ul class="price-features mono">
+                        <li class="included"><span class="check">✓</span> Everything in Athlete</li>
+                        <li class="included"><span class="check">✓</span> Price locked forever</li>
+                        <li class="included"><span class="check">✓</span> Founding Member badge</li>
+                        <li class="included"><span class="check">✓</span> Direct founder access</li>
+                        <li class="included"><span class="check">✓</span> Vote on roadmap</li>
+                        <li class="included"><span class="check">✓</span> Early feature access</li>
+                    </ul>
+                    <a href="#cta" class="btn btn-primary">Claim Your Spot →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag mono">// KNOWLEDGE BASE</span>
+                <h2 class="section-title retro-text">SYSTEM FAQ</h2>
+                <p class="section-subtitle mono">Common queries answered</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>What workout formats do you support?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer mono">
+                        <p>Cortex Coach understands virtually any text-based workout format. Paste workouts from emails, training plans, PDFs, or screenshots. Our AI recognizes running, cycling, and triathlon terminology including intervals, tempo, threshold, VO2max, sweetspot, and custom zone references.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Which devices are compatible?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer mono">
+                        <p>We generate standard FIT files compatible with Garmin, Coros, Suunto, Polar, and Wahoo devices. We also integrate directly with intervals.icu for seamless calendar sync.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>How does the intervals.icu integration work?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer mono">
+                        <p>Connect your intervals.icu account via OAuth. Once connected, converted workouts sync directly to your training calendar. Your power and pace zones are automatically imported for accurate target calibration.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>What's included in the free trial?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer mono">
+                        <p>Full access to all features for 14 days. Unlimited workout conversions, all device formats, intervals.icu integration. No credit card required to start.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>What does "Founding Member" mean?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer mono">
+                        <p>Founding Members are our first 200 paying customers. You lock in $2/month pricing forever, get a special badge, direct founder access, and vote on our feature roadmap. Once spots are filled, this tier closes permanently.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Can coaches use this for multiple athletes?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer mono">
+                        <p>Yes! Our Coach tier (coming soon) will support multi-athlete management, batch workout conversion, and team distribution. Contact us for early access.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="signup">
+        <div class="container">
+            <div class="signup-box">
+                <h3 class="signup-title">JOIN THE NEURAL NETWORK</h3>
+                <p class="signup-text mono">Get notified when we launch. Be first in line for Founding Member pricing.</p>
+                <form class="signup-form" id="signupForm" onsubmit="handleSignup(event)">
+                    <input type="email" class="signup-input" id="emailInput" placeholder="your@email.com" required>
+                    <button type="submit" class="btn btn-primary">SUBSCRIBE →</button>
+                </form>
+                <div class="signup-success" id="signupSuccess">✓ TRANSMISSION RECEIVED. You're on the list.</div>
+                <p class="signup-note mono">No spam. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="devices">
+        <div class="container">
+            <p class="devices-title mono">COMPATIBLE NEURAL INTERFACES</p>
+            <div class="devices-grid">
+                <span class="device">GARMIN</span>
+                <span class="device">COROS</span>
+                <span class="device">SUUNTO</span>
+                <span class="device">POLAR</span>
+                <span class="device">WAHOO</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="cta" class="cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2 class="cta-title retro-text">INITIALIZE YOUR TRIAL</h2>
+                <p class="cta-text mono">14 days free. No credit card required. Cancel anytime.</p>
+                <a href="#" class="btn btn-primary">Start Free Trial →</a>
+                <div class="cta-features mono">
+                    <span class="cta-feature">✓ 14-day free trial</span>
+                    <span class="cta-feature">✓ No credit card</span>
+                    <span class="cta-feature">✓ Cancel anytime</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>SYSTEM</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">System Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>NETWORK</h4>
+                    <ul>
+                        <li><a href="#">intervals.icu Forum</a></li>
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>LEGAL</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONNECT</h4>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">X</a>
+                        <a href="#" class="social-link">IN</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom mono">
+                <p>© 2025 CORTEX COACH | NEURAL TRAINING SYSTEMS | v1.0.0</p>
+                <p class="footer-status">&gt; SYSTEM ONLINE | NEURAL NET ACTIVE | READY FOR INPUT_</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        const canvas=document.getElementById('particles'),ctx=canvas.getContext('2d');function resizeCanvas(){canvas.width=window.innerWidth;canvas.height=window.innerHeight}resizeCanvas();window.addEventListener('resize',resizeCanvas);class Particle{constructor(){this.reset()}reset(){this.x=Math.random()*canvas.width;this.y=Math.random()*canvas.height;this.size=Math.random()*2+1;this.speedX=(Math.random()-.5)*.5;this.speedY=(Math.random()-.5)*.5;this.color=Math.random()>.5?'#ec4899':'#22d3ee';this.opacity=Math.random()*.5+.1}update(){this.x+=this.speedX;this.y+=this.speedY;if(this.x<0||this.x>canvas.width)this.speedX*=-1;if(this.y<0||this.y>canvas.height)this.speedY*=-1}draw(){ctx.beginPath();ctx.arc(this.x,this.y,this.size,0,Math.PI*2);ctx.fillStyle=this.color;ctx.globalAlpha=this.opacity;ctx.fill()}}const particles=Array.from({length:60},()=>new Particle());function connectParticles(){for(let i=0;i<particles.length;i++){for(let j=i+1;j<particles.length;j++){const dx=particles[i].x-particles[j].x,dy=particles[i].y-particles[j].y,distance=Math.sqrt(dx*dx+dy*dy);if(distance<120){ctx.beginPath();ctx.strokeStyle=particles[i].color;ctx.globalAlpha=.1*(1-distance/120);ctx.lineWidth=.5;ctx.moveTo(particles[i].x,particles[i].y);ctx.lineTo(particles[j].x,particles[j].y);ctx.stroke()}}}}function animate(){ctx.clearRect(0,0,canvas.width,canvas.height);particles.forEach(p=>{p.update();p.draw()});connectParticles();ctx.globalAlpha=1;requestAnimationFrame(animate)}animate();function toggleMobileMenu(){document.getElementById('mobileMenu').classList.toggle('active')}function toggleFaq(btn){const item=btn.parentElement,wasActive=item.classList.contains('active');document.querySelectorAll('.faq-item').forEach(f=>f.classList.remove('active'));if(!wasActive)item.classList.add('active')}function handleSignup(e){e.preventDefault();document.getElementById('signupForm').style.display='none';document.getElementById('signupSuccess').style.display='block'}function simulateConversion(){const output=document.getElementById('terminalOutput'),input=document.getElementById('workoutInput').value||'5x400m @ threshold';output.innerHTML='<div class="status"><span class="dot" style="background:var(--cyber-yellow);animation:pulse .3s infinite"></span><span style="color:var(--cyber-yellow)">PROCESSING...</span></div>';setTimeout(()=>{const intervals=input.match(/\d+x/)?.[0]||'5x';output.innerHTML='<div class="status"><span class="dot"></span><span>SUCCESS: FIT_FILE_GENERATED</span></div><div style="font-size:.75rem;color:var(--cyber-cyan)">&gt; Zones calibrated<br>&gt; '+intervals.replace('x','')+' intervals structured<br>&gt; Ready for device upload_</div>'},1500)}document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})});const sampleWorkouts=['5x400m @ threshold | recovery:90s | warmup:15min','10min easy, 20min tempo, 10min easy','4x1000m @ 5K pace with 400m jog recovery','60min endurance with 3x10min sweetspot'];let currentWorkout=0;function typeWorkout(){const workout=sampleWorkouts[currentWorkout],input=document.getElementById('workoutInput');input.value='';let i=0;const timer=setInterval(()=>{if(i<workout.length){input.value+=workout[i];i++}else{clearInterval(timer);currentWorkout=(currentWorkout+1)%sampleWorkouts.length;setTimeout(typeWorkout,5000)}},50)}setTimeout(typeWorkout,2000);const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)'}})},{threshold:.1,rootMargin:'0px 0px -50px 0px'});document.querySelectorAll('.feature-card,.problem-card,.step,.price-card,.faq-item').forEach((el,i)=>{el.style.opacity='0';el.style.transform='translateY(30px)';el.style.transition=`opacity .6s ease ${i*.05}s, transform .6s ease ${i*.05}s`;observer.observe(el)});
+    </script>
+</body>
+</html>
